@@ -1,14 +1,16 @@
 {
-  "name": "test-rozetka-markerplace",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "cypress": "^12.9.0"
-  }
+    "name": "test-rozetka-markerplace",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "runner": "cypress open",
+        "html-report": "cypress run --spec cypress/e2e/test-allo-marketolace-UI.cy.js --browser chrome --headed"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "cypress": "^12.9.0",
+        "cypress-mochawesome-reporter": "^3.3.0"
+    }
 }
