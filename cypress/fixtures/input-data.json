@@ -1,0 +1,10 @@
+{
+    "minPrice": 15000,
+    "maxPrice": 26000,
+    "expectSearchItem": "Ноутбук Mi RedmiBook 15 i3/8/256 (JYU4436ID)",
+    "expectedMessageBasketEmpty": "Ваш кошик порожній.",
+    "expectedMessageNotRegNum1": "Цей номер телефону не зареєстрований.",
+    "expectedMessageNotRegNum2": "Для реєстрації введіть своє ім'я та пароль.",
+    "invalidPhoneNum": "0929895698",
+    "invalidPassword": "123456"
+}
