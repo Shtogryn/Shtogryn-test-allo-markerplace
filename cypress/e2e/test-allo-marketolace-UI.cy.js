@@ -10,7 +10,7 @@ const coffeeMachinePage = new CoffeeMachinePage();
 let sum = 0;
 
 beforeEach(() => {
-    cy.log(" ---------- STARTUP ---------- ")
+    cy.log(" ---------- STARTUP ---------- ");
     cy.visit('/');
 });
 
