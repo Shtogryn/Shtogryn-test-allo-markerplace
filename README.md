@@ -14,10 +14,10 @@ npm i --save-dev cypress-mochawesome-reporter
  
 # How to use it
 
-To see execution
+To see execution:
 
-npx cypress run
+'npx cypress run'
 
-To see execution and generate report
+To see execution and generate report:
 
-npm run html-report
+'npm run html-report'
